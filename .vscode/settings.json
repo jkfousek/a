@@ -1,0 +1,78 @@
+{
+  //-------------------WORKBENCH SETTINGS--------------------------------------------------------------------
+  "workbench.editor.showTabs": "multiple",
+  "workbench.editor.tabSizingFixedMaxWidth": 130,
+  "workbench.editor.tabSizingFixedMinWidth": 130,
+  "workbench.editor.tabActionCloseVisibility": true,
+  "workbench.colorTheme": "Default Dark Modern",
+  "workbench.iconTheme": "vs-minimal",
+  "workbench.colorCustomizations": {
+    "editor.selectionHighlightBorder": "#484a4b",
+    "editor.selectionBackground": "#426770",
+    "editor.lineHighlightBackground": "#444647",
+    "editor.lineHighlightBorder": "#617592",
+    "editor.background": "#252525",
+    "editorGroup.border": "#469f",
+    "editor.hoverHighlightBackground": "#33333399",
+    "editor.foreground": "#8ab7be",
+    "editorLineNumber.foreground": "#469",
+    "editorGroupHeader.tabsBackground": "#202020",
+    "editorCursor.foreground": "#999",
+          //-----------------ERRORS AND WARNINGS-------------------------------------------------------------
+          "editorError.foreground": "#d9ff00", // Change this to your desired color
+          "editorWarning.foreground": "#ffbb00", // Optional: Change warning color
+          "editorInfo.foreground": "#ff0000", // Optional: Change info color
+  },
+  //-------------------EDITOR SETTINGS-----------------------------------------------------------------------
+  "editor.fontFamily": "JetBrains Mono",
+  "editor.fontSize": 14.5,
+  "editor.colorDecorators": true,
+  "editor.fontLigatures": true,
+  "editor.inlayHints.enabled": "off",
+  "editor.wordWrap": "on",
+  "diffEditor.wordWrap": "off",
+  "editor.guides.indentation": false,
+  "editor.guides.bracketPairs": false,
+  "editor.tabSize": 3,
+  "files.autoSave": "afterDelay",
+  "editor.autoIndent": "advanced",
+  "editor.minimap.enabled": false,
+  "editor.defaultFormatter":"GitHub.copilot",
+  "editor.formatOnSave": true,
+  "editor.linkedEditing": true,
+  "git.openRepositoryInParentFolders": "never",
+  //------------------TEXTMATE SETTINGS----------------------------------------------------------------------
+  "editor.tokenColorCustomizations": {
+    "keywords": "#60acee99",
+    "strings": "#f5a97d99",
+    "comments": "#8be78b99",
+    "types": "#60acee99",
+    "numbers": "#47b66c",
+    "functions": "#834780fb",
+    "variables": "#8291a7",
+    
+  //------------MARKDOWN SETTINGS---------------------------------------------------------------------
+  },
+  "markdown.preview.fontFamily": "-apple-system, BlinkMacSystemFont, 'Segoe WPC', 'Segoe UI', system-ui, 'Droid Sans', sans-serif",
+  "markdown.preview.fontSize": 16,
+  "markdown.preview.lineHeight": 1.0,
+  "markdown.preview.breaks": false,
+  "markdown.preview.scrollEditorWithPreview": true,
+  "markdown.preview.scrollPreviewWithEditor": true,
+  "markdown.preview.markEditorSelection": true,
+  //------------CSPELL SETTINGS--------------------------------------------------------------------
+  "cSpell.enabledFileTypes": {
+    "*": true,"markdown": true,"plaintext": true,"rmd": true,"asciidoc": true,"latex": true,"text": true,"html": true,"php": true,"javascript": true,"typescript": true,"json": true,"jsonc": true,"css": true,"scss": true,"less": true,"graphql": true,"yaml": true,"toml": true,"xml": true,"csv": true,"tsv": true,"shell": true,"python": true,"java": true,"c": true,"cpp": true,"csharp": true,"go": true,"rust": true,"ruby": true,"perl": true,"swift": true,"scala": true,"kotlin": true,"lua": true,"groovy": true,"powershell": true,"dockerfile": true,
+  },
+  "cSpell.ignoreWords": ["nums", "setext", "sublist", "amet", "Consectetur", "adipiscing", "elit", "sed", "do", "eiusmod", "startline", "playaaa", "Backgroundcolor", "mygui", "filemenu", "rnum", "toggl","jkfou", "jkf", "jkfousek", "myapp", "msgbox", "adipisicing", "incididunt", "labore", "nbsp", "deleteme", "soundplay", "cillum", "dolore", "fugiat", "nulla", "excepteur", "sint", "occaecat", "cupidatat","pariatur", "proident", "sunt", "officia", "deserunt", "mollit", "laborum", "tempor", "enim", "veniam", "quis", "aliqua", "nostrud", "ullamco", "laboris",  "aliquip", "commodo", "consequat", "duis", "aute", "irure", "reprehenderit", "voluptate", "velit", "ltrim", "activex", "joekf", "venv", "pythonhome", "cygdrive", "cygwin", "cygpath", "cygwin1","cygwin64", "cygwin64bin", "cygwin64usr", "cygwin64usrbin", "cygwin64usrlocalbin","msys", "pyvenv", "keyval", "chcp", "chdir", "chown", "chmod", "chown", "chroot", "chsh","infile","jsonf","cvsf", "csvf", "esbenp.prettier-vscode"],
+  "cSpell.language": "en",
+
+  //------------PRETTIER SETTINGS--------------------------------------------------------------------
+  "prettier.singleQuote": true,
+  "prettier.trailingComma": "all",
+  "prettier.arrowParens": "always",
+  "prettier.bracketSpacing": true,
+}
+
+
+// Json settings for vscode
