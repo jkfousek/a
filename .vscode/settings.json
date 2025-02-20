@@ -41,6 +41,22 @@
   "editor.formatOnSave": true,
   "editor.linkedEditing": true,
   "git.openRepositoryInParentFolders": "never",
+  //-------------------TERMINAL SETTINGS---------------------------------------------------------------------
+  "terminal.integrated.fontFamily": "JetBrains Mono",
+  "terminal.integrated.fontSize": 14,
+  "terminal.integrated.cursorStyle": "line",
+  "terminal.integrated.cursorBlinking": true,
+  "terminal.integrated.cursorWidth": 1,
+  "terminal.integrated.fontWeight": "normal",
+  "terminal.integrated.fontWeightBold": "bold",
+  "terminal.integrated.scrollback": 10000,
+  "terminal.integrated.rightClickBehavior": "copyPaste",
+  "terminal.integrated.copyOnSelection": true,
+  "terminal.integrated.drawBoldTextInBrightColors": true,
+  "terminal.explorerKind": "external",
+  "terminal.integrated.shellIntegration.enabled": true,
+
+
   //------------------TEXTMATE SETTINGS----------------------------------------------------------------------
   "editor.tokenColorCustomizations": {
     "keywords": "#60acee99",
