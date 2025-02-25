@@ -1,2 +1,1 @@
-# a
-A:
+# information & notes
