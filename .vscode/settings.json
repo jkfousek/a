@@ -65,7 +65,7 @@
     "comments": "#8be78b99",
     "types": "#60acee99",
     "numbers": "#47b66c",
-    "functions": "#834780fb",
+    "functions": "#c558c0fb",
     "variables": "#8291a7",
     
   //------------MARKDOWN SETTINGS---------------------------------------------------------------------
@@ -81,15 +81,15 @@
   "cSpell.enabledFileTypes": {
     "*": true,"markdown": true,"plaintext": true,"rmd": true,"asciidoc": true,"latex": true,"text": true,"html": true,"php": true,"javascript": true,"typescript": true,"json": true,"jsonc": true,"css": true,"scss": true,"less": true,"graphql": true,"yaml": true,"toml": true,"xml": true,"csv": true,"tsv": true,"shell": true,"python": true,"java": true,"c": true,"cpp": true,"csharp": true,"go": true,"rust": true,"ruby": true,"perl": true,"swift": true,"scala": true,"kotlin": true,"lua": true,"groovy": true,"powershell": true,"dockerfile": true,
   },
-  "cSpell.ignoreWords": ["nums", "setext", "sublist", "amet", "Consectetur", "adipiscing", "elit", "sed", "do", "eiusmod", "startline", "playaaa", "Backgroundcolor", "mygui", "filemenu", "rnum", "toggl","jkfou", "jkf", "jkfousek", "myapp", "msgbox", "adipisicing", "incididunt", "labore", "nbsp", "deleteme", "soundplay", "cillum", "dolore", "fugiat", "nulla", "excepteur", "sint", "occaecat", "cupidatat","pariatur", "proident", "sunt", "officia", "deserunt", "mollit", "laborum", "tempor", "enim", "veniam", "quis", "aliqua", "nostrud", "ullamco", "laboris",  "aliquip", "commodo", "consequat", "duis", "aute", "irure", "reprehenderit", "voluptate", "velit", "ltrim", "activex", "joekf", "venv", "pythonhome", "cygdrive", "cygwin", "cygpath", "cygwin1","cygwin64", "cygwin64bin", "cygwin64usr", "cygwin64usrbin", "cygwin64usrlocalbin","msys", "pyvenv", "keyval", "chcp", "chdir", "chown", "chmod", "chown", "chroot", "chsh","infile","jsonf","cvsf", "csvf", "esbenp.prettier-vscode"],
+  "cSpell.ignoreWords": ["nums", "setext", "sublist", "amet", "Consectetur", "adipiscing", "elit", "sed", "do", "eiusmod", "startline", "playaaa", "Backgroundcolor", "mygui", "filemenu", "rnum", "toggl","jkfou", "jkf", "jkfousek", "myapp", "msgbox", "adipisicing", "incididunt", "labore", "nbsp", "deleteme", "soundplay", "cillum", "dolore", "fugiat", "nulla", "excepteur", "sint", "occaecat", "cupidatat","pariatur", "proident", "sunt", "officia", "deserunt", "mollit", "laborum", "tempor", "enim", "veniam", "quis", "aliqua", "nostrud", "ullamco", "laboris",  "aliquip", "commodo", "consequat", "duis", "aute", "irure", "reprehenderit", "voluptate", "velit", "ltrim", "activex", "joekf", "venv", "pythonhome", "cygdrive", "cygwin", "cygpath", "cygwin1","cygwin64", "cygwin64bin", "cygwin64usr", "cygwin64usrbin", "cygwin64usrlocalbin","msys", "pyvenv", "keyval", "chcp", "chdir", "chown", "chmod", "chown", "chroot", "chsh","infile","jsonf","cvsf", "csvf", "esbenp.prettier-vscode","myenv","pipenv"],
   "cSpell.language": "en",
+  "cSpell.showAutocompleteDirectiveSuggestions": true,
+  "cSpell.suggestionMenuType": "quickFix",
+  
+  //-------------------MARKDOWN LINT SETTINGS----------------------------------------------------------------
+  "markdownlint.config": {
+    "MD033": false,// "no-inline-html": false,
+    "MD022": false,// "blanks-around-headings": false,
+    }, 
 
-  //------------PRETTIER SETTINGS--------------------------------------------------------------------
-  "prettier.singleQuote": true,
-  "prettier.trailingComma": "all",
-  "prettier.arrowParens": "always",
-  "prettier.bracketSpacing": true,
 }
-
-
-// Json settings for vscode
