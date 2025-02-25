@@ -43,7 +43,7 @@
   "editor.linkedEditing": true,
   "git.openRepositoryInParentFolders": "never",
   //-------------------TERMINAL SETTINGS---------------------------------------------------------------------
-  "terminal.integrated.fontFamily": "JetBrains Mono",
+  "terminal.integrated.fontFamily": "monospace",
   "terminal.integrated.fontSize": 14,
   "terminal.integrated.cursorStyle": "line",
   "terminal.integrated.cursorBlinking": true,
