@@ -14,14 +14,14 @@
     "editor.background": "#252525",
     "editorGroup.border": "#469f",
     "editor.hoverHighlightBackground": "#33333399",
-    "editor.foreground": "#8ab7be",
+    "editor.foreground": "#d3d6d7e2",
     "editorLineNumber.foreground": "#469",
     "editorGroupHeader.tabsBackground": "#202020",
     "editorCursor.foreground": "#999",
           //-----------------ERRORS AND WARNINGS-------------------------------------------------------------
-          "editorError.foreground": "#d9ff00", // Change this to your desired color
-          "editorWarning.foreground": "#ffbb00", // Optional: Change warning color
-          "editorInfo.foreground": "#ff0000", // Optional: Change info color
+          "editorError.foreground": "#ff00007c", // Change this to your desired color
+          "editorWarning.foreground": "#ffbb0098", // Optional: Change warning color
+          "editorInfo.foreground": "#ffb30075", // Optional: Change info color
   },
   //-------------------EDITOR SETTINGS-----------------------------------------------------------------------
   "editor.fontFamily": "JetBrains Mono",
@@ -60,7 +60,6 @@
 
   //------------------TEXTMATE SETTINGS----------------------------------------------------------------------
   "editor.tokenColorCustomizations": {
-    "keywords": "#60acee99",
     "strings": "#f5a97d99",
     "comments": "#8be78b99",
     "types": "#60acee99",
@@ -68,9 +67,11 @@
     "functions": "#c558c0fb",
     "variables": "#8291a7",
     
+
+  }
   //------------MARKDOWN SETTINGS---------------------------------------------------------------------
-  },
-  "markdown.preview.fontFamily": "-apple-system, BlinkMacSystemFont, 'Segoe WPC', 'Segoe UI', system-ui, 'Droid Sans', sans-serif",
+  ,
+  "markdown.preview.fontFamily": "jetbrains mono",
   "markdown.preview.fontSize": 16,
   "markdown.preview.lineHeight": 1.0,
   "markdown.preview.breaks": false,
@@ -91,5 +92,4 @@
     "MD033": false,// "no-inline-html": false,
     "MD022": false,// "blanks-around-headings": false,
     }, 
-
 }

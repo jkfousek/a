@@ -1,4 +1,4 @@
-# Python Command-Line Interface: A Comprehensive Guide
+# Python Command-Line Interface
 
 This document provides an extensive overview of Python’s command-line interface. It covers the basic invocation of the Python interpreter, the general syntax for command-line usage, and an in-depth explanation of the various command-line flags available. This guide is intended to serve as a comprehensive reference for both beginners and advanced users looking to optimize, debug, or tailor their Python runtime environment.
 
@@ -6,7 +6,7 @@ This document provides an extensive overview of Python’s command-line interfac
 
 ## Table of Contents
 
-- [Python Command-Line Interface: A Comprehensive Guide](#python-command-line-interface-a-comprehensive-guide)
+- [Python Command-Line Interface](#python-command-line-interface)
   - [Table of Contents](#table-of-contents)
   - [Introduction](#introduction)
   - [Basic Python Invocation](#basic-python-invocation)
